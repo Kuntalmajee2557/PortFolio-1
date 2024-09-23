@@ -1,16 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from "react"
+import Profile from "./Profile"
+import { Container } from "postcss"
+import Description from "./Description"
 function App() {
   
 
   return (
-    <div>
-      hii there 
+    <div className="relative grid grid-cols-12  w-full h-screen bg-red-800 gap-4 p-4 ">
+      <Profile></Profile>
+      <Description></Description>
+    
     </div>
   )
 }
+
+
+
+
+
+
 
 export default App
